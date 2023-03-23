@@ -3,6 +3,7 @@
         font-size: 55%;
         overflow-x:hidden;
         zoom: 0%;
+        width: 100%;
     }
 }
 
@@ -107,6 +108,8 @@
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+        width: 100%;
+        overflow-x:hidden;
     }
 
     .contact form .input-box input {
