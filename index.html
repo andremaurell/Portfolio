@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Portfolio design</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>André Maurell</h1>
+            <h3>And i'm a <span class="multiple-text"></span></h3>
+            <p>Computer Engineering student, currently in the 4rd year and specializing in Front-end Development. </p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/andremaurell/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/andré-maurell-19328b240/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/andremaurell" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="https://drive.google.com/u/0/uc?id=1j9p0kABlsvfYq7IuKax3yShSrbV2Xp7S&export=download" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img/fotocurriculocanva.jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/fotocurriculocanva.jpeg" alt="">
+            </div>
+
+            <div class="about-content" id="about">
+                <h2 class="heading">About <span class="blue">Me</span></h2>
+                <h3>Frontend Developer!</h3>
+                <p>
+                    My name is André Maurell, I have 20 years and I am a Computer Engineering student at the Federal University of Rio Grande (FURG). 
+                        I am currently in the 4rd year and specializing in Front-end Development but I intend to become a Full-Stack developer in the future.<span class="points">..</span><span class="more">
+                        I have experience in HTML, CSS, JavaScript, MySQL, ROS, Git, GitHub, and I am currently studying React.
+                        I am passionate about technology and I am always looking for new knowledge. I am a very organized person, 
+                        I like to work in a team and I am always willing to learn new things.</span>
+                </p>
+                <button onclick="changeName(this.id)" class="btn" id="btnReadMore">Read More</button>
+            </div>
+    </section>
+    
+    <section class="services" id="services">
+        <h2 class="heading">Our <span class="blue">Services</span></h2>
+
+        <div class="services-container" >
+            <div class="services-box" id="firstSon">
+                <!-- <div class="vapovapo"> -->
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <p>I work with Web Development since 2022, but, in 2023 wich I really started to study and work with this.<span class="points">..</span><span class="more">
+                    I have some projects with HTML, CSS and JS, but, i still don't work with frameworks, but I'm studying React. </span>
+                </p>
+                <button onclick="changeName(this.id)" class="btn" id="btnReadMore2">Read More</button>
+            <!-- </div> -->
+            </div>
+            
+            <div class="services-box" id="secondSon">
+                <!-- <div class="naoseimais"> -->
+                <i class='bx bxl-android'></i>
+                <h3>Robotic</h3>
+                <p>I meeted the robotic in University, since my first year of graduation I participate of projects like the FBOT team.<span class="points">..</span><span class="more">
+                    On behalf of the FBOT team, I participate in competitions in the @Home category, where we work on developing a domestic and autonomous robot.
+                    I have experience with ROS and I work in LOGNAV project, where we make a autonomous robot to one company.</span>
+                </p>
+                <button onclick="changeName(this.id)" class="btn" id="btnReadMore3">Read More</button>
+            <!-- </div> -->
+        </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span class="blue">Project</span></h2>
+        
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/Pokedex.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Pokedex - JS</h4>
+                    <p>Pokedex of anime Pokemon in JS/HTML/CSS.</p>
+                    <a href="https://andremaurell.github.io/Pokedex/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="img/Monopoly.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Monopoly</h4>
+                    <p>Monopoly board game in JS/HTML/CSS.</p>
+                    <a href="https://andremaurell.github.io/monopoly/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+           
+            <div class="portfolio-box">
+                <img src="img/Portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Site of FBOT team in JS/HTML/CSS.</p>
+                    <a href="http://www.fbot.c3.furg.br/butia.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span class="blue">Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Adress">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by André Maurell</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer> 
+
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
